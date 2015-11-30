@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APIEndpoint</key>
+	<string>https://cisxserver1.okanagan.bc.ca/~astrocal/apiv2.php</string>
+	<key>Snapshot</key>
+	<dict>
+		<key>SunviewDate</key>
+		<date>2011-11-04T21:46:45Z</date>
+	</dict>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<string>0</string>
+		<key>Longitude</key>
+		<string>0</string>
+		<key>Altitude</key>
+		<string>0</string>
+	</dict>
+</dict>
+</plist>

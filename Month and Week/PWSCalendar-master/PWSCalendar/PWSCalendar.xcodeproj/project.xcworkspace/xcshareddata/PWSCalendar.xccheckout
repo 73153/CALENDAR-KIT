@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D333CEBB-B4BE-4E99-832D-C9BA4B8FA5A6</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>995526f7-eb07-4341-b49d-51d3d9d55990++4251</key>
+		<string>http://nam%5cscao021@172.27.69.200:81/SVN/PWCMobile/Trunk/000%2520Source%2520Code/WinField/000%2520Source%2520Code/WinField/WinField/External/PWSCalendar</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>995526f7-eb07-4341-b49d-51d3d9d55990++4251</key>
+		<string>PWSCalendar/</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>995526f7-eb07-4341-b49d-51d3d9d55990++4251</key>
+		<string>http://nam%5cscao021@172.27.69.200:81/SVN/PWCMobile</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://nam%5cscao021@172.27.69.200:81/SVN/PWCMobile/Trunk/000%2520Source%2520Code/WinField/000%2520Source%2520Code/WinField/WinField/External/PWSCalendar</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>995526f7-eb07-4341-b49d-51d3d9d55990++4251</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>995526f7-eb07-4341-b49d-51d3d9d55990++4251</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PWSCalendar</string>
+		</dict>
+	</array>
+</dict>
+</plist>

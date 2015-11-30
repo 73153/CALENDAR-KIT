@@ -1,0 +1,4 @@
+platform :ios, '7.0'
+
+pod 'MZDayPicker', :git => 'https://github.com/lyahdav/MZDayPicker.git', :branch => 'hightlight_today'
+podspec :path => "../LIYDateTimePicker.podspec"

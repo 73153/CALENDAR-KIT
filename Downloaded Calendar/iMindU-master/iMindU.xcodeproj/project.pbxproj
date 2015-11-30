@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B34C98AD1393D92000133198 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B34C98AC1393D92000133198 /* Settings.bundle */; };
+		B3506A5A12DD9614006F889E /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3506A5812DD9614006F889E /* MainWindow-iPad.xib */; };
+		B3706CED12DD6457002889EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3706CEC12DD6457002889EF /* UIKit.framework */; };
+		B3706CEF12DD6457002889EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3706CEE12DD6457002889EF /* Foundation.framework */; };
+		B3706CF112DD6457002889EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3706CF012DD6457002889EF /* CoreGraphics.framework */; };
+		B3706CF712DD6457002889EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3706CF512DD6457002889EF /* InfoPlist.strings */; };
+		B3706CFA12DD6457002889EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3706CF912DD6457002889EF /* main.m */; };
+		B3706CFD12DD6457002889EF /* EventAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3706CFC12DD6457002889EF /* EventAppAppDelegate.m */; };
+		B3706D0012DD6457002889EF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3706CFE12DD6457002889EF /* MainWindow.xib */; };
+		B3706D0312DD6457002889EF /* EventAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3706D0212DD6457002889EF /* EventAppViewController.m */; };
+		B3706D0612DD6457002889EF /* EventAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3706D0412DD6457002889EF /* EventAppViewController.xib */; };
+		B3A66DFA12DD64AF00EE90EE /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A66DF912DD64AF00EE90EE /* EventKit.framework */; };
+		B3AB3C7F13A0461F00D47F3E /* CalendarPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AB3C7E13A0461F00D47F3E /* CalendarPickerViewController.m */; };
+		B3AB3C8313A0471400D47F3E /* AlarmSignalPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AB3C8213A0471400D47F3E /* AlarmSignalPickerViewController.m */; };
+		B3DBE42F151A5BF700409C6A /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DBE42D151A5BF700409C6A /* AboutViewController.m */; };
+		B3DBE430151A5BF700409C6A /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3DBE42E151A5BF700409C6A /* AboutViewController.xib */; };
+		B3E35E6E13732F130086CFAB /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3E35E6D13732F130086CFAB /* Entitlements.plist */; };
+		B3E35E8813734D670086CFAB /* bg-texture.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E35E8A13734D670086CFAB /* bg-texture.png */; };
+		B3E35E8F13734EC70086CFAB /* note.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E35E8E13734EC70086CFAB /* note.png */; };
+		B3E35E9113734F2F0086CFAB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E35E9013734F2F0086CFAB /* Default.png */; };
+		B3E35E9613734FFE0086CFAB /* button-highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E35E9213734FFE0086CFAB /* button-highlight@2x.png */; };
+		B3E35E9713734FFE0086CFAB /* button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E35E9313734FFE0086CFAB /* button@2x.png */; };
+		B3E35E9813734FFE0086CFAB /* button-highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E35E9413734FFE0086CFAB /* button-highlight.png */; };
+		B3E35E9913734FFE0086CFAB /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E35E9513734FFE0086CFAB /* button.png */; };
+		B3EB2631138F146300480A26 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3EB2630138F146300480A26 /* SettingsViewController.xib */; };
+		B3EB2635138F150000480A26 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EB2634138F150000480A26 /* SettingsViewController.m */; };
+		B3ED25FD152FD9E400F0BCB8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3ED25FC152FD9E400F0BCB8 /* Default@2x.png */; };
+		B3ED25FF152FDA3400F0BCB8 /* bell red-57.png in Resources */ = {isa = PBXBuildFile; fileRef = B3ED25FE152FDA3400F0BCB8 /* bell red-57.png */; };
+		B3ED2601152FDA4900F0BCB8 /* bell red-114.png in Resources */ = {isa = PBXBuildFile; fileRef = B3ED2600152FDA4900F0BCB8 /* bell red-114.png */; };
+		B3FE03E913724B22000639EC /* bell-114.png in Resources */ = {isa = PBXBuildFile; fileRef = B3FE03E813724B22000639EC /* bell-114.png */; };
+		B3FE03EB13724B27000639EC /* bell-57.png in Resources */ = {isa = PBXBuildFile; fileRef = B3FE03EA13724B27000639EC /* bell-57.png */; };
+		B3FE03ED13724B2F000639EC /* bell-72.png in Resources */ = {isa = PBXBuildFile; fileRef = B3FE03EC13724B2F000639EC /* bell-72.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B34C98AC1393D92000133198 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		B3506A5912DD9614006F889E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		B3706CE812DD6457002889EF /* iMindU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMindU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3706CEC12DD6457002889EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3706CEE12DD6457002889EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3706CF012DD6457002889EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3706CF412DD6457002889EF /* iMindU-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iMindU-Info.plist"; sourceTree = "<group>"; };
+		B3706CF612DD6457002889EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3706CF812DD6457002889EF /* EventApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EventApp-Prefix.pch"; sourceTree = "<group>"; };
+		B3706CF912DD6457002889EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3706CFB12DD6457002889EF /* EventAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventAppAppDelegate.h; sourceTree = "<group>"; };
+		B3706CFC12DD6457002889EF /* EventAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventAppAppDelegate.m; sourceTree = "<group>"; };
+		B3706CFF12DD6457002889EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B3706D0112DD6457002889EF /* EventAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventAppViewController.h; sourceTree = "<group>"; };
+		B3706D0212DD6457002889EF /* EventAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventAppViewController.m; sourceTree = "<group>"; };
+		B3706D0512DD6457002889EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EventAppViewController.xib; sourceTree = "<group>"; };
+		B3A66DF912DD64AF00EE90EE /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		B3AB3C7D13A0461F00D47F3E /* CalendarPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarPickerViewController.h; sourceTree = "<group>"; };
+		B3AB3C7E13A0461F00D47F3E /* CalendarPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarPickerViewController.m; sourceTree = "<group>"; };
+		B3AB3C8113A0471400D47F3E /* AlarmSignalPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmSignalPickerViewController.h; sourceTree = "<group>"; };
+		B3AB3C8213A0471400D47F3E /* AlarmSignalPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmSignalPickerViewController.m; sourceTree = "<group>"; };
+		B3DBE42C151A5BF700409C6A /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		B3DBE42D151A5BF700409C6A /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		B3DBE42E151A5BF700409C6A /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		B3E35E6D13732F130086CFAB /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		B3E35E8913734D670086CFAB /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/bg-texture.png"; sourceTree = "<group>"; };
+		B3E35E8E13734EC70086CFAB /* note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note.png; sourceTree = "<group>"; };
+		B3E35E9013734F2F0086CFAB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B3E35E9213734FFE0086CFAB /* button-highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-highlight@2x.png"; sourceTree = "<group>"; };
+		B3E35E9313734FFE0086CFAB /* button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button@2x.png"; sourceTree = "<group>"; };
+		B3E35E9413734FFE0086CFAB /* button-highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-highlight.png"; sourceTree = "<group>"; };
+		B3E35E9513734FFE0086CFAB /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		B3EB2630138F146300480A26 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		B3EB2633138F150000480A26 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		B3EB2634138F150000480A26 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		B3ED25FC152FD9E400F0BCB8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B3ED25FE152FDA3400F0BCB8 /* bell red-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bell red-57.png"; sourceTree = "<group>"; };
+		B3ED2600152FDA4900F0BCB8 /* bell red-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bell red-114.png"; sourceTree = "<group>"; };
+		B3FE03E813724B22000639EC /* bell-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bell-114.png"; sourceTree = "<group>"; };
+		B3FE03EA13724B27000639EC /* bell-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bell-57.png"; sourceTree = "<group>"; };
+		B3FE03EC13724B2F000639EC /* bell-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bell-72.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3706CE512DD6457002889EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3706CED12DD6457002889EF /* UIKit.framework in Frameworks */,
+				B3706CEF12DD6457002889EF /* Foundation.framework in Frameworks */,
+				B3706CF112DD6457002889EF /* CoreGraphics.framework in Frameworks */,
+				B3A66DFA12DD64AF00EE90EE /* EventKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3506A5712DD9613006F889E /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				B3506A5812DD9614006F889E /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		B3706CDD12DD6457002889EF = {
+			isa = PBXGroup;
+			children = (
+				B3ED2600152FDA4900F0BCB8 /* bell red-114.png */,
+				B3ED25FE152FDA3400F0BCB8 /* bell red-57.png */,
+				B3ED25FC152FD9E400F0BCB8 /* Default@2x.png */,
+				B3E35E9013734F2F0086CFAB /* Default.png */,
+				B3E35E6D13732F130086CFAB /* Entitlements.plist */,
+				B3FE03EC13724B2F000639EC /* bell-72.png */,
+				B3FE03EA13724B27000639EC /* bell-57.png */,
+				B3FE03E813724B22000639EC /* bell-114.png */,
+				B3706CF212DD6457002889EF /* Reminder */,
+				B3706CEB12DD6457002889EF /* Frameworks */,
+				B3706CE912DD6457002889EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3706CE912DD6457002889EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3706CE812DD6457002889EF /* iMindU.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3706CEB12DD6457002889EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3706CEC12DD6457002889EF /* UIKit.framework */,
+				B3706CEE12DD6457002889EF /* Foundation.framework */,
+				B3706CF012DD6457002889EF /* CoreGraphics.framework */,
+				B3A66DF912DD64AF00EE90EE /* EventKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3706CF212DD6457002889EF /* Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				B3506A5712DD9613006F889E /* iPad */,
+				B3706CFB12DD6457002889EF /* EventAppAppDelegate.h */,
+				B3706CFC12DD6457002889EF /* EventAppAppDelegate.m */,
+				B3706CFE12DD6457002889EF /* MainWindow.xib */,
+				B3706D0112DD6457002889EF /* EventAppViewController.h */,
+				B3706D0212DD6457002889EF /* EventAppViewController.m */,
+				B3706D0412DD6457002889EF /* EventAppViewController.xib */,
+				B3EB2633138F150000480A26 /* SettingsViewController.h */,
+				B3EB2634138F150000480A26 /* SettingsViewController.m */,
+				B3DBE42C151A5BF700409C6A /* AboutViewController.h */,
+				B3DBE42D151A5BF700409C6A /* AboutViewController.m */,
+				B3DBE42E151A5BF700409C6A /* AboutViewController.xib */,
+				B3AB3C8113A0471400D47F3E /* AlarmSignalPickerViewController.h */,
+				B3AB3C8213A0471400D47F3E /* AlarmSignalPickerViewController.m */,
+				B3AB3C7D13A0461F00D47F3E /* CalendarPickerViewController.h */,
+				B3AB3C7E13A0461F00D47F3E /* CalendarPickerViewController.m */,
+				B34C98AC1393D92000133198 /* Settings.bundle */,
+				B3EB2630138F146300480A26 /* SettingsViewController.xib */,
+				B3706CF312DD6457002889EF /* Supporting Files */,
+			);
+			name = Reminder;
+			path = EventApp;
+			sourceTree = "<group>";
+		};
+		B3706CF312DD6457002889EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3E35E9213734FFE0086CFAB /* button-highlight@2x.png */,
+				B3E35E9313734FFE0086CFAB /* button@2x.png */,
+				B3E35E9413734FFE0086CFAB /* button-highlight.png */,
+				B3E35E9513734FFE0086CFAB /* button.png */,
+				B3E35E8A13734D670086CFAB /* bg-texture.png */,
+				B3E35E8E13734EC70086CFAB /* note.png */,
+				B3706CF412DD6457002889EF /* iMindU-Info.plist */,
+				B3706CF512DD6457002889EF /* InfoPlist.strings */,
+				B3706CF812DD6457002889EF /* EventApp-Prefix.pch */,
+				B3706CF912DD6457002889EF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3706CE712DD6457002889EF /* iMindU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3706D0912DD6457002889EF /* Build configuration list for PBXNativeTarget "iMindU" */;
+			buildPhases = (
+				B3706CE412DD6457002889EF /* Sources */,
+				B3706CE512DD6457002889EF /* Frameworks */,
+				B3706CE612DD6457002889EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMindU;
+			productName = EventApp;
+			productReference = B3706CE812DD6457002889EF /* iMindU.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3706CDF12DD6457002889EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B3706CE212DD6457002889EF /* Build configuration list for PBXProject "iMindU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3706CDD12DD6457002889EF;
+			productRefGroup = B3706CE912DD6457002889EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3706CE712DD6457002889EF /* iMindU */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3706CE612DD6457002889EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3706CF712DD6457002889EF /* InfoPlist.strings in Resources */,
+				B3706D0012DD6457002889EF /* MainWindow.xib in Resources */,
+				B3706D0612DD6457002889EF /* EventAppViewController.xib in Resources */,
+				B3506A5A12DD9614006F889E /* MainWindow-iPad.xib in Resources */,
+				B3E35E8813734D670086CFAB /* bg-texture.png in Resources */,
+				B3FE03E913724B22000639EC /* bell-114.png in Resources */,
+				B3FE03EB13724B27000639EC /* bell-57.png in Resources */,
+				B3FE03ED13724B2F000639EC /* bell-72.png in Resources */,
+				B3E35E6E13732F130086CFAB /* Entitlements.plist in Resources */,
+				B3E35E8F13734EC70086CFAB /* note.png in Resources */,
+				B3E35E9113734F2F0086CFAB /* Default.png in Resources */,
+				B3E35E9613734FFE0086CFAB /* button-highlight@2x.png in Resources */,
+				B3E35E9713734FFE0086CFAB /* button@2x.png in Resources */,
+				B3E35E9813734FFE0086CFAB /* button-highlight.png in Resources */,
+				B3E35E9913734FFE0086CFAB /* button.png in Resources */,
+				B3EB2631138F146300480A26 /* SettingsViewController.xib in Resources */,
+				B34C98AD1393D92000133198 /* Settings.bundle in Resources */,
+				B3DBE430151A5BF700409C6A /* AboutViewController.xib in Resources */,
+				B3ED25FD152FD9E400F0BCB8 /* Default@2x.png in Resources */,
+				B3ED25FF152FDA3400F0BCB8 /* bell red-57.png in Resources */,
+				B3ED2601152FDA4900F0BCB8 /* bell red-114.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3706CE412DD6457002889EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3706CFA12DD6457002889EF /* main.m in Sources */,
+				B3706CFD12DD6457002889EF /* EventAppAppDelegate.m in Sources */,
+				B3706D0312DD6457002889EF /* EventAppViewController.m in Sources */,
+				B3EB2635138F150000480A26 /* SettingsViewController.m in Sources */,
+				B3AB3C7F13A0461F00D47F3E /* CalendarPickerViewController.m in Sources */,
+				B3AB3C8313A0471400D47F3E /* AlarmSignalPickerViewController.m in Sources */,
+				B3DBE42F151A5BF700409C6A /* AboutViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3506A5812DD9614006F889E /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3506A5912DD9614006F889E /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			sourceTree = "<group>";
+		};
+		B3706CF512DD6457002889EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3706CF612DD6457002889EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B3706CFE12DD6457002889EF /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3706CFF12DD6457002889EF /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B3706D0412DD6457002889EF /* EventAppViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3706D0512DD6457002889EF /* en */,
+			);
+			name = EventAppViewController.xib;
+			sourceTree = "<group>";
+		};
+		B3E35E8A13734D670086CFAB /* bg-texture.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3E35E8913734D670086CFAB /* en */,
+			);
+			name = "bg-texture.png";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3706D0712DD6457002889EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3706D0812DD6457002889EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Sebastian Engel";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=*]" = "BACE7ACA-7FC1-4090-A323-3B7431D2A354";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B3706D0A12DD6457002889EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EventApp/EventApp-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "EventApp/iMindU-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = iMindU;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B3706D0B12DD6457002889EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sebastian Engel";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EventApp/EventApp-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "EventApp/iMindU-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = iMindU;
+				PROVISIONING_PROFILE = "BACE7ACA-7FC1-4090-A323-3B7431D2A354";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B3E35E6F13732F700086CFAB /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = "Ad Hoc";
+		};
+		B3E35E7013732F700086CFAB /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EventApp/EventApp-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "EventApp/iMindU-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = iMindU;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
+		B3ED25F9152FCC4900F0BCB8 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Sebastian Engel";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=*]" = "BACE7ACA-7FC1-4090-A323-3B7431D2A354";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		B3ED25FA152FCC4900F0BCB8 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sebastian Engel";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EventApp/EventApp-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "EventApp/iMindU-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = iMindU;
+				PROVISIONING_PROFILE = "BACE7ACA-7FC1-4090-A323-3B7431D2A354";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3706CE212DD6457002889EF /* Build configuration list for PBXProject "iMindU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3706D0712DD6457002889EF /* Debug */,
+				B3706D0812DD6457002889EF /* Release */,
+				B3ED25F9152FCC4900F0BCB8 /* Distribution */,
+				B3E35E6F13732F700086CFAB /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+		B3706D0912DD6457002889EF /* Build configuration list for PBXNativeTarget "iMindU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3706D0A12DD6457002889EF /* Debug */,
+				B3706D0B12DD6457002889EF /* Release */,
+				B3ED25FA152FCC4900F0BCB8 /* Distribution */,
+				B3E35E7013732F700086CFAB /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3706CDF12DD6457002889EF /* Project object */;
+}

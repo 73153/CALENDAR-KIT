@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>97C992C0-4494-4CA1-B3AC-6AD36BF8C02E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UnionpayCard</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>920CC8F5-BC10-4814-BBA1-CAE62F9BA55D</key>
+		<string>https://github.com/dymx101/UnionpayCard</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Source/UnionpayCard/UnionpayCard.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>920CC8F5-BC10-4814-BBA1-CAE62F9BA55D</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dymx101/UnionpayCard</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>920CC8F5-BC10-4814-BBA1-CAE62F9BA55D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>920CC8F5-BC10-4814-BBA1-CAE62F9BA55D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UnionpayCard</string>
+		</dict>
+	</array>
+</dict>
+</plist>

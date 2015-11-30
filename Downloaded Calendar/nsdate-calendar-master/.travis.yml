@@ -1,0 +1,9 @@
+language: objective-c
+
+before_install:
+        - sudo gem update --system
+        - sudo gem install cocoapods
+        - cd Spec
+        - pod install
+
+script: xcodebuild test -workspace NSDateCalendar.xcworkspace -scheme NSDateCalendar -destination 'platform=iOS Simulator,name=iPhone 6,OS=latest'

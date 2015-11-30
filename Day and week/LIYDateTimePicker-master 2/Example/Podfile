@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '7.0'
+
+inhibit_all_warnings!
+
+pod 'JTCalendar', :git => 'https://github.com/kgellci/JTCalendar.git', :commit => 'e07d302195a88ec04256deeec9d83396dae79e1a' # This must be placed before LIYDateTimePicker
+
+podspec :path => "../LIYDateTimePicker.podspec"
+
+target :LIYDateTimePickerExampleTests, :exclusive => true do
+    pod 'Kiwi'
+end

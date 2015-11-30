@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0E898AF9-CC6D-49A5-A257-DE68DA440B58</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UnionpayCard</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>161DF586-C54B-4F73-962A-82B9B8BADF66</key>
+		<string>https://github.com/dymx101/CrabFinder.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Src/CrabFinder/UnionpayCard.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>161DF586-C54B-4F73-962A-82B9B8BADF66</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dymx101/CrabFinder.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>161DF586-C54B-4F73-962A-82B9B8BADF66</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>161DF586-C54B-4F73-962A-82B9B8BADF66</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CrabFinder</string>
+		</dict>
+	</array>
+</dict>
+</plist>
